@@ -1065,6 +1065,245 @@ div#mCSB_1_container{
   color: #fff;
   cursor: pointer;
 }
+.city-banner {
+  position: relative;
+  width: 100%;
+  height: 420px;
+
+  /* ADD YOUR IMAGE HERE */
+  background-image: url('../../images/banner/Air-Ambulance\ Banner.jpg');
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  overflow: hidden;
+}
+
+.city-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.city-banner .content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 20px;
+}
+
+.city-banner h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.city-banner h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.call-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.stats-section {
+  padding: 60px 20px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.stats-section h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #071c3c;
+  margin-bottom: 45px;
+}
+
+.stats-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #fff;
+
+  width: 260px;
+
+  padding: 30px 20px;
+
+  border-radius: 18px;
+
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  font-size: 42px;
+  color: #d50000;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.stat-card p {
+  font-size: 17px;
+  color: #555;
+  margin: 0;
+}
+
+.rating-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating-box span {
+  font-size: 28px;
+}
+.service-section {
+  padding: 70px 25px;
+  background: #f3f3f3;
+}
+
+.service-section .container {
+  max-width: 1800px;
+  margin: auto;
+}
+
+
+/* HEADING */
+
+.service-section h1 {
+  text-align: center;
+
+  font-size: 72px;
+
+  font-weight: 800;
+
+  color: #2f3b52;
+
+  margin-bottom: 45px;
+}
+
+
+/* TEXT */
+
+.service-section p {
+
+  font-size: 22px;
+
+  line-height: 1.9;
+
+  color: #111;
+
+  margin-bottom: 28px;
+
+  text-align: left;
+}
+
+.service-section strong {
+  font-weight: 700;
+  color: #000;
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px) {
+
+  .stats-section h2 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .stat-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .stat-card h3 {
+    font-size: 34px;
+  }
+
+}
+
+#service-title{
+  color: white;
+}
+
+@media(max-width:768px) {
+
+  .city-banner {
+    height: 320px;
+  }
+
+  .city-banner h1 {
+    font-size: 34px;
+  }
+
+  .city-banner h2 {
+    font-size: 22px;
+  }
+
+  .call-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+/* .call-btn {
+  display: inline-block;
+  padding: 18px 40px;
+  background: #d50000;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+} */
+
+/* .call-btn:hover {
+  transform: scale(1.05);
+} */
+
+@media(max-width:768px) {
+
+  .city-banner {
+    height: 450px;
+  }
+
+  .city-banner h1 {
+    font-size: 42px;
+  }
+
+  .city-banner h2 {
+    font-size: 28px;
+  }
+
+  .call-btn {
+    font-size: 18px;
+    padding: 14px 25px;
+  }
+}
 
 .header-style-five{
   position: absolute;
