@@ -1059,7 +1059,12 @@ div#mCSB_1_container{
   color: #fff;
   border-color: #fff !important;
 }
-
+.get-quote {
+  background: var(--theme-color);
+  border-color: var(--theme-color) !important;
+  color: #fff;
+  cursor: pointer;
+}
 
 .header-style-five{
   position: absolute;
