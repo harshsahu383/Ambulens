@@ -189,6 +189,9 @@
 .processing-block-three:nth-child(3) .inner-box{
   border-color: var(--theme-color);
 }
+.processing-block-three:nth-child(3) .inner-box{
+  border-color: var(--theme-color);
+}
 
 .processing-block-three .inner-box .count-text{
   position: absolute;

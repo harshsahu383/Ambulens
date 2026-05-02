@@ -1,0 +1,593 @@
+.site-footer {
+	.footer-wrapper {
+		background-color: #111d59;
+		background-size: cover;
+	}
+
+	.footer-copyright {
+		color: #9b9ea8;
+	}
+
+	.footer-info {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.row-flex {
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		ul {
+			margin-bottom: 0;
+			margin-left: -17px;
+			margin-right: -17px;
+
+			li {
+				display: inline-block;
+				padding: 0 17px;
+				position: relative;
+				margin-bottom: 0;
+
+				&:before {
+					position: absolute;
+					content: '';
+					width: 2px;
+					height: 12px;
+					top: 7px;
+					right: 0;
+					background-color: #9b9ea8 ! important;
+				}
+
+				&:last-child {
+					&:before {
+						display: none;
+					}
+				}
+
+				a {
+					color: #9b9ea8;
+				}
+			}
+		}
+	}
+	.delaware-newsletter-widget .mc4wp-form-fields{
+		input[type="submit"]{
+			font-size: 0;
+			border: none;
+		}
+	}
+	.delaware-newsletter-widget .mc4wp-form-fields:after,
+	.delaware-newsletter-widget .mc4wp-form-fields span{
+		display: block;
+	}
+	.recent-posts-widget{
+		.entry-meta{
+			display: flex;
+			align-items: center;
+			margin-bottom: 14px;
+
+			.meta{
+				margin-right: 10px;
+				&:after{
+					display: none;
+				}
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+			a.category-post:hover{
+				color: #fff;
+			}
+		}
+		.post-date{
+			font-size: 16px;
+			i{
+				display: initial;
+			}
+		}
+		.more-post{
+			a{
+				color: #fff;
+			}
+			svg{
+				fill: #fff;
+			}
+		}
+	}
+}
+
+.footer-newsletter {
+	background-color: #111d59;
+	padding: 50px 0;
+
+	.message-newsletter {
+		.newsletter-icon {
+			font-size: 46px;
+			color: @primary-color;
+			float: left;
+			transform: translateY(-10px);
+		}
+
+		.message {
+			padding-left: 75px;
+			position: relative;
+		}
+	}
+
+	.mc4wp-form-fields {
+		input[type="email"] {
+			border-color: #142476;
+		}
+	}
+
+	.newsletter-style-2 .mc4wp-form-fields {
+		input[type="email"] {
+			border-color: #2b397d;
+		}
+	}
+}
+
+.mc4wp-form-fields,
+.wpcf7-form{
+	input[type=submit] {
+		color: #fff;
+	}
+}
+
+.footer-widgets {
+	padding: 80px 0 50px;
+	color: #abaebe;
+
+	.footer-widget-contact {
+		h5 {
+			color: #fff;
+			margin-top: 0;
+			margin-bottom: 3px;
+		}
+
+		span {
+			color: @primary-color;
+			font-size: 30px;
+			display: inline-block;
+			padding-right: 20px;
+		}
+
+		.detail {
+			margin-bottom: 14px;
+			display: flex;
+			align-items: center;
+
+			div {
+				flex-grow: 1;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&.widget-title-style {
+		.footer-sidebar {
+			.widget-title {
+				border-bottom: 1px solid #30396a;
+				padding-bottom: 15px;
+				margin-bottom: 45px;
+			}
+		}
+	}
+
+	.footer-sidebar {
+		ul {
+			border: 0;
+			padding: 0;
+
+			&.menu {
+				margin-top: -5px;
+			}
+
+			a {
+				color: #abaebe;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+
+		.widget {
+
+			&.widget_media_image{
+				margin-bottom: 34px;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.logo-footer {
+			margin-bottom: 28px;
+			display: block;
+		}
+
+		.widget-title {
+			color: #fff;
+			font-size: 20px;
+			margin: 17px 0 30px;
+			padding-bottom: 0;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			a {
+				color: #fff;
+			}
+
+			&:after{
+				display: none;
+			}
+		}
+
+		article {
+			color: #fff;
+			padding: 0 0 17px;
+			margin-bottom: 30px;
+			border: 0;
+			border-bottom: 1px solid #142476;
+
+			&:last-child {
+				border-bottom: 0;
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+
+			a {
+				color: #abaebe;
+			}
+
+			.category-post {
+				color: #fff;
+				padding: 0 18px;
+				display: table;
+				height: 30px;
+				line-height: 30px;
+				background-color: @primary-color;
+				-webkit-border-radius: 20px;
+				border-radius: 20px;
+			}
+
+			.post-title {
+				font-weight: 500;
+				font-family: @font-family-secondary;
+				margin-bottom: 8px;
+			}
+			.post-text {
+
+				.post-date {
+					color: #fff;
+				}
+			}
+
+			&:hover {
+				background-color: transparent;
+			}
+		}
+
+		figure {
+			&.gallery-item {
+				max-width: 30%;
+				margin: 4px;
+			}
+		}
+
+		.wpcf7-form {
+			position: relative;
+
+			input[type="text"],
+			input[type="email"],
+			select,
+			textarea {
+				background-color: transparent;
+				border: 1px solid #142476;
+				font-weight: normal;
+				width: 100%;
+			}
+		}
+
+		.footer-contact {
+			display: flex;
+			align-items: center;
+
+			h5 {
+				font-size: 15px;
+				font-family: @font-family-primary;
+				margin: 0;
+			}
+
+			i {
+				margin-right: 20px;
+				color: @primary-color;
+
+				&:before {
+					font-size: 25px;
+				}
+			}
+		}
+
+		textarea {
+			height: 150px;
+		}
+
+		.delaware-newsletter-widget{
+			margin-bottom: 25px;
+		}
+
+		.widget_dl-custom-menu{
+			.widget-title{
+				margin-bottom: 40px;
+			}
+		}
+	}
+
+	.mc4wp-form-fields {
+		input[type="email"] {
+			border-color: #142476;
+		}
+
+	}
+
+	.newsletter-style-2 .mc4wp-form-fields {
+		input[type="email"] {
+			border-color: #2b397d;
+		}
+	}
+
+	.widget_search .search-form,
+	.widget select,
+	.widget table tr td,
+	.widget table tr th,
+	.widget table caption {
+		border-color: #142476;
+	}
+
+	.widget_search .search-form {
+		&:before {
+			color: #fff;
+		}
+
+		&:after {
+			background-color: #142476;
+		}
+	}
+
+	.widget_categories,
+	.widget_archive,
+	.widget_pages,
+	.widget_meta,
+	.widget_nav_menu,
+	.widget_dl-custom-menu {
+		li {
+			position: relative;
+			padding-left: 0;
+
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	.widget_recent_comments,
+	.widget_recent_entries,
+	.widget_rss {
+		ul {
+			li {
+				padding: 15px 0;
+				border: 0;
+				background-color: transparent;
+			}
+		}
+	}
+	.widget_text{
+		letter-spacing: -0.1px;
+		margin-bottom: 19px;
+	}
+	&.text-dark {
+		background-color: #fff;
+
+		.footer-sidebar {
+			.widget-title {
+				color: #222;
+
+				a {
+					color: #222;
+				}
+			}
+
+			article {
+				border-color: #eef3fb;
+			}
+
+			ul a:hover {
+				color: #abaebe;
+			}
+		}
+
+
+		.delaware-social-links-widget a {
+			color: #abaebe;
+		}
+
+		.footer-widget-contact h5 {
+			color: #222;
+		}
+
+		.mc4wp-form-fields input[type="email"] {
+			border-color: #eef3fb;
+		}
+	}
+
+	.recent-posts-widget{
+		.recent-post{
+			display: block;
+
+			.widget-thumb{
+				max-width: 270px;
+				padding-bottom: 10px;
+			}
+
+			.post-by{
+				display: none;
+				display: none;
+			}
+		}
+
+		.post-text{
+			display: inline-block;
+			width: 100%;
+		}
+	}
+}
+
+.backtotop {
+	display: inline-block;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 45px;
+	height: 45px;
+	line-height: 41px;
+	text-align: center;
+	border: 2px solid #e1e8f4;
+	color: #9b9ea8;
+	font-size: 15px;
+	background-color: #f7faff;
+	opacity: 0;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	z-index: 999;
+
+	&.show-scroll {
+		opacity: 1;
+	}
+}
+
+.header-v2 {
+	.footer-sidebar {
+		.delaware-social-links-widget {
+			.widget-desc {
+				display: inline-block;
+			}
+		}
+	}
+}
+
+// Form
+
+.wpcf7-form {
+	textarea {
+		padding: 10px 20px;
+	}
+
+	input[type="submit"] {
+		outline: none;
+		border: 0;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	.footer-form {
+		.form-field {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.mc4wp-form-fields {
+	position: relative;
+
+	input[type="email"] {
+		height: 58px;
+		line-height: 59px;
+		width: 100%;
+		border: 2px solid #f7faff;
+		padding-right: 58px;
+		background-color: transparent;
+	}
+
+	input[type="submit"] {
+		font-size: 0;
+		outline: none;
+		width: 44px;
+		height: 44px;
+		position: absolute;
+		top: 50%;
+		right: 7px;
+		transform: translateY(-50%);
+		background-color: transparent;
+		z-index: 999;
+		border: 0;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&:after {
+		content: '';
+		width: 44px;
+		height: 44px;
+		position: absolute;
+		top: 50%;
+		right: 7px;
+		transform: translateY(-50%);
+		background-color: #eedc18;
+	}
+
+	span {
+		display: block;
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		transform: translateY(-50%);
+		color: #111c55;
+		z-index: 9;
+
+		svg {
+			display: none;
+		}
+
+		&:before {
+			content: '\f003';
+			font-family: FontAweSome;
+		}
+	}
+
+	.newsletter-style-2 & {
+		input[type="email"] {
+			height: 50px;
+			line-height: 51px;
+			border-radius: 50px;
+			border-color: #f7faff;
+			padding-left: 30px;
+		}
+
+		&:after {
+			display: none;
+			background-color: transparent;
+		}
+
+		span {
+			color: #2685f9;
+
+			&:before {
+				display: none;
+			}
+
+			svg {
+				display: block;
+			}
+		}
+	}
+}

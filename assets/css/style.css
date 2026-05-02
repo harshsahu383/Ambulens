@@ -43,6 +43,7 @@
 **********************************************/
 
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap');
 
 /*** 
 
@@ -58,7 +59,111 @@
   outline:none;
 }
 
+#service-heading{
+  padding-top:100px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
 
+
+.section p {
+    text-align: center;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+/* Layout */
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Left Card */
+.left-card {
+    flex: 1;
+    min-width: 300px;
+    background: linear-gradient(135deg, #0d47a1, #1976d2);
+    color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.left-card h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.left-card p {
+    text-align: left;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Right Cards */
+.right {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.card p {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Dot */
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #1976d2;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .right {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+/* Heading */
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
 /*** 
 
 ====================================================================
@@ -69,12 +174,12 @@
 
 
 :root{
-  --theme-color: #CE1810;
-  --secondary-color: #0B25B6;
+  --theme-color: #f97727;
+  --secondary-color: #113b76;
   --text-color: #666666;
   --title-color: #222222;
-  --text-font: "Plus Jakarta Sans", sans-serif;
-  --title-font: "Plus Jakarta Sans", sans-serif;
+  --text-font: "Manrope", sans-serif;
+  --title-font: "Manrope", sans-serif;
 }
 
 
@@ -124,7 +229,7 @@ body {
   margin: 0;
   max-width: 320px;
   line-height: 1.8;
-  color: #FFFFFFCC;
+  color:black;
 }
 
 .auto-container{
@@ -544,6 +649,12 @@ img {
 .pagination li a.current{
   color: #fff;
 }
+/* .contact-hover{
+  color: black !important;
+}
+.contact-hover:hover{
+  color: var(--theme-color) !important;
+} */
 
 .pagination li a i{
   position: relative;
@@ -1295,7 +1406,7 @@ button.ltr {
 }
 
 .single-column:nth-child(3) .single-support-box{
-  background: #0B25B6;
+  background: #113b76;
 }
 
 .single-support-box .inner-box{

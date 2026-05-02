@@ -1,0 +1,77 @@
+/*
+Theme Name: Helendo
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+.editor-styles-wrapper.edit-post-visual-editor p.wp-block-subhead {
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: .75;
+    color: #666;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ul li {
+    margin-bottom: 0;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ol,
+.wp-block-freeform.block-library-rich-text__tinymce ul {
+    padding-left: 20px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ol ol,
+.wp-block-freeform.block-library-rich-text__tinymce ul ul,
+.wp-block-freeform.block-library-rich-text__tinymce ul ol,
+.wp-block-freeform.block-library-rich-text__tinymce ol ul {
+    margin-bottom: 0;
+}
+
+.block-library-list .editor-rich-text__tinymce,
+.block-library-list .editor-rich-text__tinymce ol,
+.block-library-list .editor-rich-text__tinymce ul {
+    margin-left: 0;
+    padding-left: 1.5em;
+}
+
+.block-editor ul.wp-block-archives {
+    padding-left: 0;
+    list-style: none;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce pre {
+    color: #666;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.wp-block-cover-image.has-background-dim::before, .wp-block-cover.has-background-dim::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce .gallery .gallery-caption {
+    font-size: 16px;
+    margin: 15px 0 0;
+    line-height: 1.5;
+}
+
+.wp-block {
+    max-width: 1200px;
+}
+
+.wp-block[data-align=wide] {
+    max-width: 1545px;
+}
+
+div.editor-styles-wrapper p{
+    margin-bottom: 1.2em;
+    margin-top: 0;
+}
+
+
+

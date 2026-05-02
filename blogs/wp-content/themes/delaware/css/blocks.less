@@ -1,0 +1,171 @@
+.has-small-font-size {
+	font-size: 13px;
+}
+
+hr.wp-block-separator {
+	background-color: #bbb;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul.wp-block-categories {
+	list-style: none;
+	margin: 0 0 1em;
+	padding: 0;
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		padding: 5px 0;
+		margin-bottom: 0;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+
+	li a {
+		color: @dark;
+
+		&:hover {
+			color: @primary-color;
+		}
+	}
+}
+
+.wp-block-categories {
+	select {
+		padding: 10px;
+		border: 1px solid #d9d9d9;
+	}
+}
+
+.wp-block-archives {
+	list-style: none;
+	padding-left: 0;
+
+	li {
+		padding: 3px 0;
+		margin-bottom: 0;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+
+ul.wp-block-latest-posts {
+	list-style: none;
+	margin: 0 0 1em;
+	padding: 0;
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		padding: 5px 0;
+		margin-bottom: 0;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+
+	li a {
+		color: @dark;
+
+		&:hover {
+			color: @primary-color;
+		}
+	}
+}
+
+.wp-block-latest-posts.is-grid li {
+	margin: 0;
+}
+
+.wp-block-pullquote {
+	text-align: initial;
+	padding: 1em 0;
+
+	blockquote {
+		padding: 55px 35px 35px;
+	}
+
+	&.aligncenter{
+		cite{
+			margin-top: 15px;
+		}
+	}
+
+	&.alignleft{
+		padding-left: 0;
+
+		blockquote{
+			text-align: left;
+			padding-left: 35px;
+			padding-right: 15px;
+		}
+	}
+
+	&.alignright{
+		padding-left: 0;
+
+		blockquote{
+			text-align: right;
+			padding-right: 35px;
+			padding-left: 15px;
+		}
+	}
+
+
+}
+
+figure.is-resized {
+	margin: 0;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+img.alignright {
+	clear: both;
+}
+
+.wp-block-cover-image.has-background-dim::before, .wp-block-cover.has-background-dim::before {
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large,
+.wp-block-quote:not(.is-large):not(.is-style-large){
+	border-left: 0;
+	padding: 55px 80px 45px;
+}
+
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-style-large cite{
+	text-align: inherit;
+}
+
+@media only screen and (min-width: 960px) {
+	body.full-content .site-content .entry-content > *.alignfull {
+		width: -webkit-fill-available;
+		max-width: 1000%;
+		margin-right: calc(50% - 50vw + 8px);
+		margin-left: calc(50% - 50vw + 8px);
+	}
+
+	body.full-content .site-content .entry-content > *.alignwide {
+		width: -webkit-fill-available;
+		max-width: 1000%;
+		margin-right: calc(25% - 25vw);
+		margin-left: calc(25% - 25vw);
+	}
+}

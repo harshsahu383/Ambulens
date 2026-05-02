@@ -1,0 +1,295 @@
+.categories-filter {
+	color: #9b9ea8;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+
+	.button {
+		display: inline-block;
+		padding: 0 12px 6px;
+		cursor: pointer;
+		position: relative;
+		transition: .5s;
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			transform: translateX(-50%);
+			width: 20px;
+			height: 3px;
+			background-color: #f8e510;
+			opacity: 0;
+			transition: .5s;
+		}
+
+		&:hover,
+		&.active {
+			color: @primary-color;
+
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.portfolio-wrapper {
+	margin-bottom: 30px;
+
+	.entry-header {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.entry-thumbnail {
+		position: relative;
+		display: block;
+		margin-bottom: 0;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-image: linear-gradient(rgba(23, 29, 60, 0.9), rgba(17, 28, 85, 0.9));
+			opacity: 0;
+			transition: .5s;
+			z-index: 99;
+		}
+
+		img {
+			transition: .5s;
+		}
+	}
+
+	.entry-summary {
+		padding: 30px;
+
+		p {
+			margin-bottom: 10px;
+		}
+	}
+
+	.read-more {
+		padding-top: 7px;
+
+		.svg-icon {
+			padding-left: 8px;
+		}
+	}
+
+	.descr {
+		text-align: left;
+	}
+
+	.category {
+		color: #9b9ea8;
+		display: block;
+		position: relative;
+		padding-left: 40px;
+
+		&:before {
+			content: '';
+			width: 30px;
+			height: 1px;
+			position: absolute;
+			left: 0;
+			bottom: 11px;
+			background-color: @primary-color;
+		}
+	}
+
+	.entry-title {
+		font-size: 18px;
+		text-align: left;
+
+		&:hover {
+			a {
+				color: #222;
+			}
+		}
+	}
+
+	.portfolio-inner {
+		border: 2px solid #f7faff;
+		transition: 0.5s;
+
+		&:hover {
+			background-color: #f7faff;
+
+			.entry-thumbnail {
+				&:before {
+					opacity: 1;
+				}
+
+				img {
+					transform: scale(1.06);
+				}
+			}
+		}
+	}
+
+	&.columns-2,
+	&.masonry {
+		.entry-header{
+			margin-bottom: 22px;
+		}
+		.entry-content {
+			padding-bottom: 0;
+		}
+
+		.entry-summary {
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			z-index: 100;
+			color: #fff;
+
+			a {
+				color: #fff;
+			}
+		}
+
+		.read-more {
+			transform: translateY(20px);
+			transition-duration: 0.35s;
+			transition-delay: 0.2s;
+			opacity: 0;
+		}
+
+		.descr {
+			transform: translateY(20px);
+			transition-duration: 0.35s;
+			opacity: 0;
+		}
+
+		.portfolio-inner {
+			padding: 30px;
+
+			&:hover {
+				.read-more,
+				.descr {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	&.columns-2 {
+		margin-bottom: 55px;
+		.portfolio-inner {
+			border: 0;
+			background-color: transparent;
+			padding: 0;
+			&:hover{
+				.btn-plus{
+					opacity: 1;
+				}
+				.entry-title a{
+					color: @primary-color;
+				}
+			}
+		}
+		.entry-title{
+			margin-top: 9px;
+			margin-bottom: 0;
+		}
+
+		.entry-summary{
+			display: none;
+		}
+
+		.btn-plus{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			left: 0;
+			right: 0;
+			margin: auto;
+			color: #fff;
+			opacity: 0;
+			z-index: 999;
+
+			svg{
+				fill: #fff;
+			}
+		}
+	}
+
+	&.columns-3 {
+		.entry-title {
+			margin-bottom: 0;
+
+			a {
+				color: #fff;
+			}
+
+			&:hover {
+				a {
+					color: #fff;
+				}
+			}
+		}
+
+		.entry-content {
+			position: absolute;
+			bottom: -5px;
+			left: 0;
+			z-index: 100;
+			padding: 25px 30px;
+		}
+
+		.entry-thumbnail:after {
+			content: "";
+			display: block;
+			background: linear-gradient(to top, rgba(17,28,85,1) 0%, rgba(17,28,85,0) 58%, rgba(17,28,85,0) 100%);
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+		.category {
+			color: #fff;
+
+			&:before {
+				background-color: #f8e510;
+			}
+		}
+
+		.read-more {
+			a {
+				color: #222222;
+			}
+		}
+
+		.portfolio-inner {
+			&:hover {
+				.category {
+					color: #f8e510;
+				}
+			}
+		}
+	}
+}
+
+.post-type-archive-portfolio {
+
+}
+
+.delaware-related-portfolio {
+	.related-title {
+		margin-top: 0;
+		margin-bottom: 30px;
+		font-weight: 700;
+	}
+}

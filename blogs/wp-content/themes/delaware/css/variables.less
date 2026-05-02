@@ -1,0 +1,57 @@
+@gray-darker: #111;
+@gray-dark: #333;
+@gray: #555;
+@gray-light: #ccc;
+@gray-lighter: #fafafa;
+@black-dark: #222;
+
+@gray-normal: #9b9ea8;
+@gray-normal-light: #f7faff;
+@dark-adtive: #111c55;
+@light-active: #f8e510;
+@light-border: #e1e8f4;
+
+@light: #fff;
+@dark: #000;
+
+@primary-color: #2685f9;
+@secondary-color: #f8e510;
+
+@font-size: 16px;
+@font-size-h1: floor((@font-size * 2.25)); // ~36px
+@font-size-h2: floor((@font-size * 1.875)); // ~30px
+@font-size-h3: ceil((@font-size * 1.5)); // ~24px
+@font-size-h4: ceil((@font-size * 1.125)); // ~18px
+@font-size-h5: @font-size;
+@font-size-h6: ceil((@font-size * 0.75)); // ~12px
+
+@font-family-primary: 'Rubik', sans-serif;
+@font-family-secondary: 'Poppins', sans-serif;
+
+@xs-min: 480px;
+@sm-min: 768px;
+@md-min: 992px;
+@lg-min: 1200px;
+
+@xs-max: (@sm-min - 1);
+@sm-max: (@md-min - 1);
+@md-max: (@lg-min - 1);
+
+@phone:          ~"(max-width: @{sm-min})";
+@phone-strict:   ~"only screen and (min-width: @{xs-min}) and (max-width: @{xs-max})";
+@tablet:         ~"only screen and (min-width: @{sm-min})";
+@tablet-strict:  ~"only screen and (min-width: @{sm-min}) and (max-width: @{sm-max})";
+@desktop:        ~"only screen and (min-width: @{md-min})";
+@desktop-strict: ~"only screen and (min-width: @{md-min}) and (max-width: @{md-max})";
+@large:          ~"only screen and (min-width: @{lg-min})";
+
+@keyframes animate-stripes {
+	0% {background-position: 0 0;transform: translateX(-100%);}
+
+	100% {background-position: 60px 0;transform: translateX(0);}
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}

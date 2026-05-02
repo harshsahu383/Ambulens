@@ -1,0 +1,526 @@
+/*
+Theme Name: Delaware
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Galleries
+ */
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	color: #9b9ea8;
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+	line-height: 1.6;
+	background: #fff;
+	word-wrap: break-word;
+}
+
+/**
+ * 2.0 - Typography
+ */
+
+a {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	color: #222222;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+a:hover {
+	color: #222222;
+}
+a img {
+	border: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.2;
+	color: #222222;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 12px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h1 {
+	font-size: 36px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h2 {
+	font-size: 30px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h3 {
+	font-size: 24px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h4 {
+	font-size: 18px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h5 {
+	font-size: 16px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h6 {
+	font-size: 12px;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+ul ul {
+	list-style: disc;
+}
+
+ul, ol {
+	margin: 0 0 1.5em;
+	padding-left: 1.5em;
+}
+
+dd, li {
+	margin-bottom: 0;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+li {
+	margin-bottom: 7px;
+}
+
+p {
+	margin-bottom: 1.7em;
+	margin-top: 0;
+}
+
+.mce-content-body {
+	line-height: 1.6;
+}
+
+.has-small-font-size {
+	font-size: 13px;
+}
+
+.has-normal-font-size, .has-regular-font-size {
+	font-size: 16px;
+}
+
+.has-large-font-size {
+	font-size: 36px;
+}
+
+.mce-content-body,
+.wp-block-freeform.block-library-rich-text__tinymce li,
+.wp-block-freeform.block-library-rich-text__tinymce p{
+	line-height: 1.6;
+}
+
+.wp-block-file .wp-block-file__button{
+	padding: .3em 1em;
+}
+
+/**
+ * 3.0 - Elements
+ */
+
+hr {
+	background-color: #bbb;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+input[type=text],
+textarea {
+	border: 1px solid #999;
+	background: #fff;
+}
+blockquote {
+	padding: 55px 80px 35px;
+	color: #000;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.5;
+	background-color: #f6f6f6;
+	border-left: 0;
+	text-align: center;
+	position: relative;
+	margin: 55px 0 35px;
+}
+
+blockquote p {
+	margin-bottom: 10px;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+blockquote:after {
+	content: '\f10d';
+	font-family: FontAweSome;
+	font-size: 21px;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	background-color: #2685f9;
+	margin: 0 0 20px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce blockquote{
+	border-left: 0;
+	padding: 55px 80px 25px;
+	margin: 0 0 20px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce code{
+	padding: 2px 4px;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	border-radius: 4px;
+}
+
+blockquote a {
+	color: #222222;
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+}
+
+blockquote cite {
+	color: #2685f9;
+	font-style: normal;
+	font-size: 16px;
+}
+
+.wp-block-pullquote .wp-block-pullquote__citation,
+.wp-block-quote .wp-block-quote__citation{
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large,
+.wp-block-quote:not(.is-large):not(.is-style-large){
+	border-left: 0;
+	padding: 55px 80px 45px;
+}
+
+.wp-block-quote.is-large .wp-block-quote__citation,
+.wp-block-quote.is-style-large .wp-block-quote__citation{
+	font-size: 18px;
+	text-align: inherit;
+}
+
+.wp-block-pullquote{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 1em 0;
+}
+
+.wp-block-pullquote blockquote{
+	padding: 55px 35px 35px;
+}
+
+.wp-block-pullquote.alignleft{
+	margin: 5px 20px 20px 0;
+}
+
+.wp-block-pullquote.alignright{
+	margin: 5px 0 20px 20px;
+}
+
+.wp-block-pullquote.alignleft blockquote{
+	text-align: left;
+	padding-left: 35px;
+	padding-right: 15px;
+}
+
+.wp-block-pullquote.alignright blockquote{
+	text-align: right;
+	padding-right: 35px;
+	padding-left: 15px;
+}
+
+.wp-block-pullquote.alignleft p,
+.wp-block-pullquote.alignright p{
+	font-size: 20px;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 14px;
+}
+
+kbd{
+	padding: 2px 4px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 3px;
+}
+
+pre {
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #333;
+	word-break: break-all;
+	word-wrap: break-word;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.wp-block-preformatted pre {
+	white-space: nowrap;
+	line-height: 1.42857143;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+}
+caption,
+td,
+th {
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+}
+table,
+th,
+td {
+	border: 1px solid #d1d1d1;
+}
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+td {
+	border-width: 0 1px 1px 0;
+}
+th,
+td {
+	padding: 0.4375em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dl,
+dd {
+	margin: 0 0 1.75em;
+}
+
+ul.wp-block-latest-posts,
+.wp-block-latest-posts ul,
+ul.wp-block-categories,
+.wp-block-categories ul {
+	list-style: none;
+}
+
+.wp-block-categories ul ul{
+	padding-left: 20px;
+}
+
+ul.wp-block-categories{
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-categories li {
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+
+.wp-block-categories li:last-child {
+	padding-bottom: 0;
+}
+
+.wp-block-categories li a {
+	color: #000;
+}
+
+.wp-block-categories li a:hover {
+	color: #999;
+}
+
+.wp-block-gallery {
+	padding: 0;
+	margin: 0;
+}
+
+ul.wp-block-latest-posts,
+.wp-block-latest-posts ul {
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+ul.wp-block-latest-posts li {
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+
+ul.wp-block-latest-posts li:last-child {
+	padding-bottom: 0;
+}
+
+.wp-block-latest-posts li a {
+	color: #000;
+}
+
+.wp-block-latest-posts li a:hover {
+	color: #999;
+}
+
+.wp-block-categories select {
+	padding: 10px;
+	border: 1px solid #d9d9d9;
+	line-height: 1;
+	height: auto;
+	border-radius: 0;
+	color: #666;
+	font-family: inherit;
+	font-size: 16px;
+
+}
+
+.wp-block-archives li {
+	padding: 3px 0;
+	margin-bottom: 0;
+}
+
+.wp-block-table .wp-block-table__cell-content {
+	padding: 0;
+}
+/**
+ * 4.0 - Alignment
+ */
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	width: inherit;  /* Make images fill their parent's space. Solves IE8. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+embed,
+iframe,
+object {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+
+/**
+ * 5.0 - Galleries
+ */
+.gallery-caption {
+	display: block;
+}
+.gallery {
+	margin-bottom: 1.5em;
+	margin-left: -7px;
+	margin-right: -7px;
+}
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	margin: 0;
+	padding: 7px;
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+.gallery-caption {
+	display: block;
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+
+/*Fix*/
+.wp-block-freeform.block-library-rich-text__tinymce a{
+	color: #222;
+}
+

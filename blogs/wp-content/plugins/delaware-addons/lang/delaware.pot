@@ -1,0 +1,2134 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Delaware Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-17 08:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/portfolio.php:428 inc/services.php:440 inc/widgets/custom-menu.php:194
+#: inc/widgets/custom-menu.php:206
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/visual-composer.php:2835
+msgid "1"
+msgstr ""
+
+#: inc/visual-composer.php:1749
+msgid "1 column"
+msgstr ""
+
+#: inc/visual-composer.php:2297
+msgid "1 star"
+msgstr ""
+
+#: inc/visual-composer.php:2836
+msgid "2"
+msgstr ""
+
+#: inc/visual-composer.php:1817 inc/visual-composer.php:3188
+msgid "2 Columns"
+msgstr ""
+
+#: inc/visual-composer.php:1750
+msgid "2 columns"
+msgstr ""
+
+#: inc/visual-composer.php:1961
+msgid "2 items"
+msgstr ""
+
+#: inc/visual-composer.php:2298
+msgid "2 star"
+msgstr ""
+
+#: inc/visual-composer.php:1818 inc/visual-composer.php:3189
+msgid "3 Columns"
+msgstr ""
+
+#: inc/visual-composer.php:1751
+msgid "3 columns"
+msgstr ""
+
+#: inc/visual-composer.php:1962
+msgid "3 items"
+msgstr ""
+
+#: inc/visual-composer.php:2299
+msgid "3 star"
+msgstr ""
+
+#: inc/visual-composer.php:1819
+msgid "4 Columns"
+msgstr ""
+
+#: inc/visual-composer.php:1752
+msgid "4 columns"
+msgstr ""
+
+#: inc/visual-composer.php:1963
+msgid "4 items"
+msgstr ""
+
+#: inc/visual-composer.php:2300
+msgid "4 star"
+msgstr ""
+
+#: inc/visual-composer.php:1753
+msgid "5 columns"
+msgstr ""
+
+#: inc/visual-composer.php:1964
+msgid "5 items"
+msgstr ""
+
+#: inc/visual-composer.php:2301
+msgid "5 star"
+msgstr ""
+
+#: inc/visual-composer.php:1754
+msgid "6 columns"
+msgstr ""
+
+#: inc/visual-composer.php:1965
+msgid "6 items"
+msgstr ""
+
+#: inc/visual-composer.php:2442
+msgid "About"
+msgstr ""
+
+#: inc/widgets/custom-menu.php:30
+msgid "Add a custom menu to your sidebar."
+msgstr ""
+
+#: inc/visual-composer.php:1762
+msgid "Add images"
+msgstr ""
+
+#: inc/portfolio.php:77 inc/services.php:80
+msgid "Add New"
+msgstr ""
+
+#: inc/portfolio.php:126 inc/services.php:132
+msgid "Add New Category"
+msgstr ""
+
+#: inc/portfolio.php:78
+msgid "Add New Project"
+msgstr ""
+
+#: inc/services.php:81
+msgid "Add New Service"
+msgstr ""
+
+#: inc/visual-composer.php:1180 inc/visual-composer.php:1334
+#: inc/widgets/office-location.php:183
+msgid "Address"
+msgstr ""
+
+#: inc/visual-composer.php:1167
+msgid "Address Information"
+msgstr ""
+
+#: inc/visual-composer.php:1476
+msgid "Addresses"
+msgstr ""
+
+#: inc/widgets/portfolio.php:31
+msgid "Advanced portfolio widget."
+msgstr ""
+
+#: inc/widgets/recent-posts.php:35
+msgid "Advanced recent posts widget."
+msgstr ""
+
+#: inc/portfolio.php:122 inc/services.php:128 inc/widgets/recent-posts.php:202
+msgid "All Categories"
+msgstr ""
+
+#: inc/portfolio.php:76
+msgid "All Projects"
+msgstr ""
+
+#: inc/services.php:79
+msgid "All Services"
+msgstr ""
+
+#: inc/visual-composer.php:1159
+msgid "Api Key"
+msgstr ""
+
+#: inc/shortcodes.php:2328
+msgid "Apple"
+msgstr ""
+
+#: inc/widgets/portfolio.php:187
+msgid "ASC"
+msgstr ""
+
+#: inc/visual-composer.php:1851
+msgid "Ascending"
+msgstr ""
+
+#: inc/visual-composer.php:3211
+msgid "Ascending "
+msgstr ""
+
+#: inc/visual-composer.php:726 inc/visual-composer.php:2810
+#: inc/visual-composer.php:2927 inc/visual-composer.php:3243
+msgid "Autoplay"
+msgstr ""
+
+#: inc/visual-composer.php:737 inc/visual-composer.php:2821
+#: inc/visual-composer.php:2938 inc/visual-composer.php:3254
+msgid "Autoplay speed"
+msgstr ""
+
+#: inc/visual-composer.php:2750 inc/visual-composer.php:2861
+msgid "Background box"
+msgstr ""
+
+#: inc/visual-composer.php:437
+msgid "Background button color"
+msgstr ""
+
+#: inc/visual-composer.php:336 inc/visual-composer.php:1671
+#: inc/visual-composer.php:2163
+msgid "Background Color"
+msgstr ""
+
+#: inc/visual-composer.php:650 inc/visual-composer.php:2856
+msgid "Background image"
+msgstr ""
+
+#: inc/shortcodes.php:2327
+msgid "Behance"
+msgstr ""
+
+#: inc/visual-composer.php:677
+msgid "Blog Section"
+msgstr ""
+
+#: inc/visual-composer.php:687
+msgid "Bordered"
+msgstr ""
+
+#: inc/visual-composer.php:688
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/visual-composer.php:3050
+msgid "Button align"
+msgstr ""
+
+#: inc/visual-composer.php:3039
+msgid "Button background color"
+msgstr ""
+
+#: inc/visual-composer.php:3067
+msgid "Button border"
+msgstr ""
+
+#: inc/visual-composer.php:3077
+msgid "Button border color"
+msgstr ""
+
+#: inc/visual-composer.php:716
+msgid "Button Text"
+msgstr ""
+
+#: inc/visual-composer.php:429 inc/visual-composer.php:2770
+#: inc/visual-composer.php:3045
+msgid "Button text color"
+msgstr ""
+
+#: inc/visual-composer.php:353
+msgid "Call To Action"
+msgstr ""
+
+#: inc/shortcodes.php:1403 inc/shortcodes.php:1411
+msgid "Can not connect to Google Maps APIs"
+msgstr ""
+
+#: inc/visual-composer.php:711
+msgid "Carousel"
+msgstr ""
+
+#: inc/portfolio.php:121 inc/services.php:127 inc/visual-composer.php:1910
+msgid "Categories"
+msgstr ""
+
+#: inc/portfolio.php:120 inc/services.php:126
+msgid "Category"
+msgstr ""
+
+#: inc/services.php:471
+msgctxt "Category base"
+msgid "service-category"
+msgstr ""
+
+#: inc/portfolio.php:132
+msgid "Category list"
+msgstr ""
+
+#: inc/portfolio.php:131
+msgid "Category list navigation"
+msgstr ""
+
+#: inc/visual-composer.php:604 inc/visual-composer.php:2345
+#: inc/visual-composer.php:3055 inc/visual-composer.php:3120
+msgid "Center"
+msgstr ""
+
+#: inc/visual-composer.php:1176 inc/visual-composer.php:1197
+msgid "Choose an image from media library"
+msgstr ""
+
+#: inc/visual-composer.php:584 inc/visual-composer.php:668
+msgid "Class"
+msgstr ""
+
+#: inc/visual-composer.php:2283
+msgid "Client"
+msgstr ""
+
+#: inc/shortcodes.php:2987
+msgid "Client :"
+msgstr ""
+
+#: inc/visual-composer.php:2332
+msgid "Color"
+msgstr ""
+
+#: inc/visual-composer.php:1814 inc/visual-composer.php:2832
+#: inc/visual-composer.php:3184
+msgid "Columns"
+msgstr ""
+
+#: inc/visual-composer.php:1264
+msgid "Contact"
+msgstr ""
+
+#: inc/visual-composer.php:1410
+msgid "Contact box"
+msgstr ""
+
+#: inc/visual-composer.php:924 inc/visual-composer.php:1559
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/visual-composer.php:2422
+msgid "Contact phone"
+msgstr ""
+
+#: inc/visual-composer.php:658 inc/visual-composer.php:1278
+#: inc/visual-composer.php:1389 inc/visual-composer.php:1490
+#: inc/visual-composer.php:1512 inc/visual-composer.php:2739
+#: inc/visual-composer.php:2888 inc/visual-composer.php:3007
+#: inc/widgets/newsletter.php:43
+msgid "Content"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:125
+msgid "Continue Reading..."
+msgstr ""
+
+#: inc/visual-composer.php:2351
+msgid "Counter Title"
+msgstr ""
+
+#: inc/visual-composer.php:933 inc/visual-composer.php:940
+#: inc/visual-composer.php:947 inc/visual-composer.php:954
+#: inc/visual-composer.php:961
+msgid "CSS"
+msgstr ""
+
+#: inc/portfolio.php:367 inc/services.php:378
+msgid "Custom Base"
+msgstr ""
+
+#: inc/visual-composer.php:842
+msgid "Custom Image"
+msgstr ""
+
+#: inc/visual-composer.php:2073 inc/visual-composer.php:2204
+#: inc/visual-composer.php:2591
+msgid "Custom image"
+msgstr ""
+
+#: inc/visual-composer.php:1898
+msgid "Customs"
+msgstr ""
+
+#: inc/visual-composer.php:423 inc/visual-composer.php:919
+#: inc/visual-composer.php:1882 inc/visual-composer.php:2335
+#: inc/visual-composer.php:2764 inc/visual-composer.php:2844
+#: inc/visual-composer.php:2990
+msgid "Dark"
+msgstr ""
+
+#: inc/shortcodes.php:1970 inc/visual-composer.php:1010
+#: inc/visual-composer.php:1319 inc/visual-composer.php:1834
+#: inc/visual-composer.php:3199
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/portfolio.php:171
+msgid "date"
+msgstr ""
+
+#: inc/shortcodes.php:3026
+msgid "Date :"
+msgstr ""
+
+#: inc/portfolio.php:332 inc/services.php:343 inc/visual-composer.php:1831
+#: inc/visual-composer.php:1897
+msgid "Default"
+msgstr ""
+
+#: inc/portfolio.php:313 inc/portfolio.php:314 inc/portfolio.php:512
+msgctxt "Default slug"
+msgid "portfolio"
+msgstr ""
+
+#: inc/services.php:324 inc/services.php:325 inc/services.php:525
+msgctxt "Default slug"
+msgid "service"
+msgstr ""
+
+#: inc/visual-composer.php:311 inc/visual-composer.php:356
+#: inc/visual-composer.php:460 inc/visual-composer.php:596
+#: inc/visual-composer.php:680 inc/visual-composer.php:785
+#: inc/visual-composer.php:904 inc/visual-composer.php:979
+#: inc/visual-composer.php:1051 inc/visual-composer.php:1137
+#: inc/visual-composer.php:1155 inc/visual-composer.php:1253
+#: inc/visual-composer.php:1302 inc/visual-composer.php:1364
+#: inc/visual-composer.php:1413 inc/visual-composer.php:1580
+#: inc/visual-composer.php:1741 inc/visual-composer.php:1797
+#: inc/visual-composer.php:1952 inc/visual-composer.php:2003
+#: inc/visual-composer.php:2186 inc/visual-composer.php:2279
+#: inc/visual-composer.php:2317 inc/visual-composer.php:2394
+#: inc/visual-composer.php:2445 inc/visual-composer.php:2672
+#: inc/visual-composer.php:2723 inc/visual-composer.php:2794
+#: inc/visual-composer.php:2911 inc/visual-composer.php:3029
+#: inc/visual-composer.php:3095 inc/visual-composer.php:3173
+#: inc/visual-composer.php:3233
+msgid "Delaware"
+msgstr ""
+
+#: inc/widgets/custom-menu.php:28
+msgid "Delaware - Custom Menu"
+msgstr ""
+
+#: inc/widgets/newsletter.php:19
+msgid "Delaware - Newsletter"
+msgstr ""
+
+#: inc/widgets/office-location.php:32
+msgid "Delaware - Office Location"
+msgstr ""
+
+#: inc/widgets/portfolio.php:28
+msgid "Delaware - Portfolio"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:32
+msgid "Delaware - Recent Posts"
+msgstr ""
+
+#: inc/widgets/socials.php:53
+msgid "Delaware - Social Links"
+msgstr ""
+
+#. Name of the plugin
+msgid "Delaware Addons"
+msgstr ""
+
+#: inc/visual-composer.php:3026
+msgid "Delaware Button"
+msgstr ""
+
+#: inc/visual-composer.php:901
+msgid "Delaware Contact Form 7"
+msgstr ""
+
+#: inc/visual-composer.php:2314
+msgid "Delaware counter"
+msgstr ""
+
+#: inc/visual-composer.php:308
+msgid "Delaware Empty Space"
+msgstr ""
+
+#: inc/visual-composer.php:1692
+msgid "Delaware icon"
+msgstr ""
+
+#: inc/visual-composer.php:3230
+msgid "Delaware Icon Box Carousel"
+msgstr ""
+
+#: inc/visual-composer.php:3092
+msgid "Delaware Link"
+msgstr ""
+
+#: inc/visual-composer.php:1048
+msgid "Delaware Tabs"
+msgstr ""
+
+#: inc/visual-composer.php:593
+msgid "Delaware Text Box"
+msgstr ""
+
+#: inc/visual-composer.php:2392
+msgid "Delaware Video Banner"
+msgstr ""
+
+#: inc/widgets/portfolio.php:186
+msgid "DESC"
+msgstr ""
+
+#: inc/visual-composer.php:1850
+msgid "Descending"
+msgstr ""
+
+#: inc/visual-composer.php:3212
+msgid "Descending "
+msgstr ""
+
+#: inc/visual-composer.php:569 inc/visual-composer.php:824
+#: inc/visual-composer.php:1025 inc/visual-composer.php:1109
+#: inc/visual-composer.php:1464 inc/visual-composer.php:1632
+#: inc/visual-composer.php:2059 inc/visual-composer.php:2257
+#: inc/visual-composer.php:2539 inc/visual-composer.php:2964
+#: inc/visual-composer.php:3282 inc/widgets/socials.php:116
+msgid "Description"
+msgstr ""
+
+#: inc/visual-composer.php:389
+msgid "Description "
+msgstr ""
+
+#: inc/visual-composer.php:558
+msgid "Description Button"
+msgstr ""
+
+#: inc/visual-composer.php:1470
+msgid "Description Highlight"
+msgstr ""
+
+#: inc/visual-composer.php:285 inc/visual-composer.php:295
+msgid "Design Options"
+msgstr ""
+
+#: inc/visual-composer.php:1186
+msgid "Details"
+msgstr ""
+
+#: inc/shortcodes.php:2324
+msgid "Deviantart"
+msgstr ""
+
+#: inc/portfolio.php:415
+msgid "Disable Portfolio for this site."
+msgstr ""
+
+#: inc/services.php:426
+msgid "Disable Services for this site."
+msgstr ""
+
+#: inc/visual-composer.php:2754
+msgid "Display background"
+msgstr ""
+
+#: inc/widgets/socials.php:56
+msgid "Display links to social media networks."
+msgstr ""
+
+#: inc/widgets/newsletter.php:23
+msgid "Display newsletter."
+msgstr ""
+
+#: inc/shortcodes.php:2318 inc/widgets/socials.php:34
+msgid "Dribbble"
+msgstr ""
+
+#: inc/visual-composer.php:2362
+msgid "Duaration"
+msgstr ""
+
+#: inc/portfolio.php:123 inc/services.php:129
+msgid "Edit Category"
+msgstr ""
+
+#: inc/widgets/custom-menu.php:224
+msgid "Edit Menu"
+msgstr ""
+
+#: inc/portfolio.php:79
+msgid "Edit Project"
+msgstr ""
+
+#: inc/services.php:82
+msgid "Edit Service"
+msgstr ""
+
+#: inc/visual-composer.php:1776
+msgid "Effect when hover"
+msgstr ""
+
+#: inc/widgets/office-location.php:189
+msgid "Email"
+msgstr ""
+
+#: inc/widgets/office-location.php:195
+msgid "Email Url"
+msgstr ""
+
+#: inc/visual-composer.php:286
+msgid "Enable"
+msgstr ""
+
+#: inc/visual-composer.php:287
+msgid "Enable this option if you want to show svg icon `"
+msgstr ""
+
+#: inc/visual-composer.php:1337
+msgid "Enter address for this job"
+msgstr ""
+
+#: inc/visual-composer.php:1493
+msgid "Enter content for this address"
+msgstr ""
+
+#: inc/visual-composer.php:1392
+msgid "Enter content for this job"
+msgstr ""
+
+#: inc/visual-composer.php:1281
+msgid "Enter content number for this section"
+msgstr ""
+
+#: inc/visual-composer.php:1013
+msgid "Enter date for this event"
+msgstr ""
+
+#: inc/visual-composer.php:1322
+msgid "Enter date for this job"
+msgstr ""
+
+#: inc/visual-composer.php:1028
+msgid "Enter description for this event"
+msgstr ""
+
+#: inc/visual-composer.php:827
+msgid "Enter description for this member"
+msgstr ""
+
+#: inc/visual-composer.php:318
+msgid "Enter empty space height on Desktop."
+msgstr ""
+
+#: inc/visual-composer.php:325
+msgid ""
+"Enter empty space height on Mobile. Leave empty to use the height of the "
+"desktop"
+msgstr ""
+
+#: inc/visual-composer.php:332
+msgid ""
+"Enter empty space height on Mobile. Leave empty to use the height of the "
+"tablet"
+msgstr ""
+
+#: inc/visual-composer.php:1683 inc/visual-composer.php:2139
+msgid "Enter Font size for icon."
+msgstr ""
+
+#: inc/visual-composer.php:376
+msgid "Enter Font size of Title"
+msgstr ""
+
+#: inc/visual-composer.php:507
+msgid "Enter Font size of title"
+msgstr ""
+
+#: inc/visual-composer.php:384
+msgid "Enter Font weight of Title"
+msgstr ""
+
+#: inc/visual-composer.php:515
+msgid "Enter Font weight of title"
+msgstr ""
+
+#: inc/visual-composer.php:3064
+msgid "Enter Font weight."
+msgstr ""
+
+#: inc/visual-composer.php:2249 inc/visual-composer.php:2418
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: inc/visual-composer.php:803 inc/visual-composer.php:1647
+#: inc/visual-composer.php:1769 inc/visual-composer.php:1935
+#: inc/visual-composer.php:1981 inc/visual-composer.php:2118
+#: inc/visual-composer.php:2576 inc/visual-composer.php:2642
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: inc/visual-composer.php:820
+msgid "Enter job name for this member"
+msgstr ""
+
+#: inc/visual-composer.php:1343
+msgid "Enter link for this job"
+msgstr ""
+
+#: inc/visual-composer.php:876
+msgid "Enter link for this social"
+msgstr ""
+
+#: inc/visual-composer.php:813
+msgid "Enter name for this member"
+msgstr ""
+
+#: inc/visual-composer.php:1460
+msgid "Enter sub title for this section"
+msgstr ""
+
+#: inc/widgets/office-location.php:186
+msgid ""
+"Enter the address in this format \"Address 1|Address 2|Address 3...\". Each "
+"address is separated by \"|\""
+msgstr ""
+
+#: inc/widgets/office-location.php:192
+msgid ""
+"Enter the email in this format \"Email 1|Email 2|Email 3...\". Each email is "
+"separated by \"|\""
+msgstr ""
+
+#: inc/widgets/office-location.php:198
+msgid ""
+"Enter the email in this format \"Email url 1|Email url 2|Email url 3...\". "
+"Each url is separated by \"|\""
+msgstr ""
+
+#: inc/widgets/office-location.php:168
+msgid ""
+"Enter the location in this format \"Location 1|Location 2|Location 3...\". "
+"Each location is separated by \"|\""
+msgstr ""
+
+#: inc/widgets/office-location.php:174
+msgid ""
+"Enter the phone number in this format \"Phone 1|Phone 2|Phone 3...\". Each "
+"phone number is separated by \"|\""
+msgstr ""
+
+#: inc/widgets/office-location.php:180
+msgid ""
+"Enter the time in this format \"Time 1|Time 2|Time 3...\". Each time is "
+"separated by \"|\""
+msgstr ""
+
+#: inc/visual-composer.php:1485
+msgid "Enter title for this address"
+msgstr ""
+
+#: inc/visual-composer.php:1020
+msgid "Enter title for this event"
+msgstr ""
+
+#: inc/visual-composer.php:1523
+msgid "Enter title for this form"
+msgstr ""
+
+#: inc/visual-composer.php:1330 inc/visual-composer.php:1384
+msgid "Enter title for this job"
+msgstr ""
+
+#: inc/visual-composer.php:696 inc/visual-composer.php:792
+#: inc/visual-composer.php:911 inc/visual-composer.php:986
+#: inc/visual-composer.php:1260 inc/visual-composer.php:1274
+#: inc/visual-composer.php:1309 inc/visual-composer.php:1371
+#: inc/visual-composer.php:1420 inc/visual-composer.php:2193
+msgid "Enter title for this section"
+msgstr ""
+
+#: inc/visual-composer.php:1065
+msgid "Enter title for this tab"
+msgstr ""
+
+#: inc/visual-composer.php:1000
+msgid "Enter year for this section"
+msgstr ""
+
+#: inc/visual-composer.php:1004
+msgid "Event"
+msgstr ""
+
+#: inc/visual-composer.php:1989
+msgid "Excerpt content"
+msgstr ""
+
+#: inc/visual-composer.php:2381 inc/visual-composer.php:2429
+msgid "Extra Class"
+msgstr ""
+
+#: inc/visual-composer.php:342 inc/visual-composer.php:443
+#: inc/visual-composer.php:579 inc/visual-composer.php:663
+#: inc/visual-composer.php:770 inc/visual-composer.php:882
+#: inc/visual-composer.php:965 inc/visual-composer.php:1036
+#: inc/visual-composer.php:1122 inc/visual-composer.php:1141
+#: inc/visual-composer.php:1239 inc/visual-composer.php:1287
+#: inc/visual-composer.php:1349 inc/visual-composer.php:1398
+#: inc/visual-composer.php:1565 inc/visual-composer.php:1726
+#: inc/visual-composer.php:1782 inc/visual-composer.php:2171
+#: inc/visual-composer.php:2264 inc/visual-composer.php:2777
+#: inc/visual-composer.php:2895 inc/visual-composer.php:3014
+#: inc/visual-composer.php:3218 inc/visual-composer.php:3330
+msgid "Extra class name"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extra elements for Visual Composer. It was built for Delaware theme."
+msgstr ""
+
+#: inc/visual-composer.php:1499
+msgid "Extra info"
+msgstr ""
+
+#: inc/shortcodes.php:2309 inc/widgets/socials.php:24
+msgid "Facebook"
+msgstr ""
+
+#: inc/visual-composer.php:1863
+msgid "Filter"
+msgstr ""
+
+#: inc/visual-composer.php:1879
+msgid "Filter Color"
+msgstr ""
+
+#: inc/portfolio.php:85 inc/services.php:88
+msgid "Filter projects list"
+msgstr ""
+
+#: inc/visual-composer.php:1894
+msgid "Filter Style"
+msgstr ""
+
+#: inc/shortcodes.php:2313 inc/widgets/socials.php:32
+msgid "Flickr"
+msgstr ""
+
+#: inc/visual-composer.php:841 inc/visual-composer.php:1074
+#: inc/visual-composer.php:1691 inc/visual-composer.php:2071
+#: inc/visual-composer.php:2202 inc/visual-composer.php:2589
+#: inc/visual-composer.php:3130 inc/visual-composer.php:3294
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/visual-composer.php:373 inc/visual-composer.php:503
+#: inc/visual-composer.php:2528 inc/visual-composer.php:3111
+msgid "Font size"
+msgstr ""
+
+#: inc/visual-composer.php:381 inc/visual-composer.php:512
+#: inc/visual-composer.php:3061
+msgid "Font weight"
+msgstr ""
+
+#: inc/visual-composer.php:930
+msgid "Form Background Color"
+msgstr ""
+
+#: inc/visual-composer.php:1520
+msgid "Form title"
+msgstr ""
+
+#: inc/visual-composer.php:915
+msgid "Form Version"
+msgstr ""
+
+#: inc/visual-composer.php:362 inc/visual-composer.php:368
+#: inc/visual-composer.php:377 inc/visual-composer.php:385
+#: inc/visual-composer.php:391 inc/visual-composer.php:398
+#: inc/visual-composer.php:406 inc/visual-composer.php:448
+#: inc/visual-composer.php:2729 inc/visual-composer.php:2735
+#: inc/visual-composer.php:2741 inc/visual-composer.php:2747
+#: inc/visual-composer.php:2782
+msgid "General"
+msgstr ""
+
+#: inc/widgets/socials.php:36
+msgid "Github"
+msgstr ""
+
+#: inc/widgets/newsletter.php:47
+msgid "Go to MailChimp for WP > Form to get shortcode."
+msgstr ""
+
+#: inc/shortcodes.php:2311
+msgid "Google"
+msgstr ""
+
+#: inc/visual-composer.php:1153
+msgid "Google Maps"
+msgstr ""
+
+#: inc/widgets/socials.php:26
+msgid "Google Plus"
+msgstr ""
+
+#: inc/visual-composer.php:710
+msgid "Grid"
+msgstr ""
+
+#: inc/visual-composer.php:1614 inc/visual-composer.php:2478
+msgid "H1"
+msgstr ""
+
+#: inc/visual-composer.php:493 inc/visual-composer.php:1427
+#: inc/visual-composer.php:1530 inc/visual-composer.php:1613
+#: inc/visual-composer.php:2479
+msgid "H2"
+msgstr ""
+
+#: inc/visual-composer.php:494 inc/visual-composer.php:1428
+#: inc/visual-composer.php:1531 inc/visual-composer.php:1615
+#: inc/visual-composer.php:2480
+msgid "H3"
+msgstr ""
+
+#: inc/visual-composer.php:495 inc/visual-composer.php:1429
+#: inc/visual-composer.php:1532 inc/visual-composer.php:1616
+#: inc/visual-composer.php:2481
+msgid "H4"
+msgstr ""
+
+#: inc/visual-composer.php:496 inc/visual-composer.php:1430
+#: inc/visual-composer.php:1533 inc/visual-composer.php:1617
+#: inc/visual-composer.php:2482
+msgid "H5"
+msgstr ""
+
+#: inc/visual-composer.php:497 inc/visual-composer.php:1431
+#: inc/visual-composer.php:1534 inc/visual-composer.php:1618
+#: inc/visual-composer.php:2483
+msgid "H6"
+msgstr ""
+
+#: inc/visual-composer.php:1527
+msgid "Heading form title"
+msgstr ""
+
+#: inc/visual-composer.php:490 inc/visual-composer.php:1424
+#: inc/visual-composer.php:1609 inc/visual-composer.php:2475
+msgid "Heading title"
+msgstr ""
+
+#: inc/visual-composer.php:329
+msgid "Height on Mobile(px)"
+msgstr ""
+
+#: inc/visual-composer.php:322
+msgid "Height on Tablet(px)"
+msgstr ""
+
+#: inc/visual-composer.php:315 inc/visual-composer.php:1207
+msgid "Height(px)"
+msgstr ""
+
+#: inc/visual-composer.php:1867
+msgid "Hide"
+msgstr ""
+
+#: inc/visual-composer.php:2039
+msgid "Hover hide title"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://steelthemes.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://steelthemes.com/plugins/delaware-addons.zip"
+msgstr ""
+
+#: inc/visual-composer.php:846 inc/visual-composer.php:1081
+#: inc/visual-composer.php:2078 inc/visual-composer.php:2210
+#: inc/visual-composer.php:2601 inc/visual-composer.php:3137
+#: inc/visual-composer.php:3300
+msgid "Icon"
+msgstr ""
+
+#: inc/visual-composer.php:2000
+msgid "Icon Box"
+msgstr ""
+
+#: inc/visual-composer.php:2183
+msgid "Icon Box 2"
+msgstr ""
+
+#: inc/visual-composer.php:3265
+msgid "Icon Box Carousel"
+msgstr ""
+
+#: inc/visual-composer.php:2130 inc/visual-composer.php:2654
+msgid "Icon Color"
+msgstr ""
+
+#: inc/visual-composer.php:861 inc/visual-composer.php:2105
+#: inc/visual-composer.php:2629
+msgid "Icon Image"
+msgstr ""
+
+#: inc/visual-composer.php:836 inc/visual-composer.php:1068
+#: inc/visual-composer.php:1687 inc/visual-composer.php:2065
+#: inc/visual-composer.php:2197 inc/visual-composer.php:2584
+#: inc/visual-composer.php:3125 inc/visual-composer.php:3288
+msgid "Icon library"
+msgstr ""
+
+#: inc/visual-composer.php:1681 inc/visual-composer.php:2137
+msgid "Icon size"
+msgstr ""
+
+#: inc/visual-composer.php:1832 inc/widgets/portfolio.php:172
+msgid "ID"
+msgstr ""
+
+#: inc/visual-composer.php:79 inc/visual-composer.php:107
+#: inc/visual-composer.php:135 inc/visual-composer.php:173
+msgid "Id"
+msgstr ""
+
+#: inc/visual-composer.php:729 inc/visual-composer.php:2813
+#: inc/visual-composer.php:2930 inc/visual-composer.php:3246
+msgid "If \"YES\" Enable autoplay"
+msgstr ""
+
+#: inc/visual-composer.php:762
+msgid "If \"YES\" Enable dots"
+msgstr ""
+
+#: inc/visual-composer.php:405
+msgid "If \"YES\" Enable icon arrow"
+msgstr ""
+
+#: inc/visual-composer.php:751
+msgid "If \"YES\" Enable navigation"
+msgstr ""
+
+#: inc/visual-composer.php:644
+msgid "If \"YES\" show box border"
+msgstr ""
+
+#: inc/visual-composer.php:628
+msgid "If \"YES\" show title underline"
+msgstr ""
+
+#: inc/visual-composer.php:1241
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file . "
+msgstr ""
+
+#: inc/visual-composer.php:344 inc/visual-composer.php:444
+#: inc/visual-composer.php:580 inc/visual-composer.php:664
+#: inc/visual-composer.php:773 inc/visual-composer.php:885
+#: inc/visual-composer.php:967 inc/visual-composer.php:1039
+#: inc/visual-composer.php:1125 inc/visual-composer.php:1144
+#: inc/visual-composer.php:1290 inc/visual-composer.php:1352
+#: inc/visual-composer.php:1401 inc/visual-composer.php:1568
+#: inc/visual-composer.php:1729 inc/visual-composer.php:1784
+#: inc/visual-composer.php:2173 inc/visual-composer.php:2266
+#: inc/visual-composer.php:2778 inc/visual-composer.php:2896
+#: inc/visual-composer.php:3017 inc/visual-composer.php:3221
+#: inc/visual-composer.php:3332
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/visual-composer.php:796 inc/visual-composer.php:1638
+#: inc/visual-composer.php:2567
+msgid "Image"
+msgstr ""
+
+#: inc/visual-composer.php:1577
+msgid "Image Box"
+msgstr ""
+
+#: inc/visual-composer.php:1745
+msgid "Image columns"
+msgstr ""
+
+#: inc/visual-composer.php:1738
+msgid "Image Grid"
+msgstr ""
+
+#: inc/visual-composer.php:1656
+msgid "Image position"
+msgstr ""
+
+#: inc/visual-composer.php:802 inc/visual-composer.php:1646
+#: inc/visual-composer.php:1768 inc/visual-composer.php:1934
+#: inc/visual-composer.php:1980 inc/visual-composer.php:2117
+#: inc/visual-composer.php:2247 inc/visual-composer.php:2416
+#: inc/visual-composer.php:2575
+msgid "Image size"
+msgstr ""
+
+#: inc/visual-composer.php:2641
+msgid "Image size icon"
+msgstr ""
+
+#: inc/widgets/office-location.php:35
+msgid "Induscity office location widget."
+msgstr ""
+
+#: inc/visual-composer.php:1918
+msgid "Insert slug categories."
+msgstr ""
+
+#: inc/shortcodes.php:2320 inc/widgets/socials.php:33
+msgid "Instagram"
+msgstr ""
+
+#: inc/shortcodes.php:1431
+msgid "Invalid request. Did you enter an address?"
+msgstr ""
+
+#: inc/visual-composer.php:1958
+msgid "Items per row"
+msgstr ""
+
+#: inc/visual-composer.php:817 inc/visual-composer.php:1313
+#: inc/visual-composer.php:1375
+msgid "Job"
+msgstr ""
+
+#: inc/shortcodes.php:1516
+msgid "Job Box"
+msgstr ""
+
+#: inc/visual-composer.php:1299
+msgid "Job box"
+msgstr ""
+
+#: inc/shortcodes.php:1485
+msgid "Job Box Detail"
+msgstr ""
+
+#: inc/visual-composer.php:1361
+msgid "Job box detail"
+msgstr ""
+
+#: inc/visual-composer.php:603 inc/visual-composer.php:1659
+#: inc/visual-composer.php:2344 inc/visual-composer.php:3054
+#: inc/visual-composer.php:3119
+msgid "Left"
+msgstr ""
+
+#: inc/visual-composer.php:424 inc/visual-composer.php:918
+#: inc/visual-composer.php:1883 inc/visual-composer.php:2336
+#: inc/visual-composer.php:2765 inc/visual-composer.php:2845
+#: inc/visual-composer.php:2991
+msgid "Light"
+msgstr ""
+
+#: inc/visual-composer.php:1340 inc/visual-composer.php:2287
+msgid "Link"
+msgstr ""
+
+#: inc/visual-composer.php:3276
+msgid "Link (URL)"
+msgstr ""
+
+#: inc/visual-composer.php:3115
+msgid "Link align"
+msgstr ""
+
+#: inc/visual-composer.php:3105
+msgid "Link color"
+msgstr ""
+
+#: inc/visual-composer.php:873
+msgid "Link Socials"
+msgstr ""
+
+#: inc/shortcodes.php:2316
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/widgets/socials.php:30
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widgets/office-location.php:165
+msgid "Location"
+msgstr ""
+
+#: inc/visual-composer.php:1173
+msgid "Location Image"
+msgstr ""
+
+#: inc/widgets/office-location.php:117
+msgid "Location:"
+msgstr ""
+
+#: inc/visual-composer.php:1229
+msgid "Map Colors"
+msgstr ""
+
+#: inc/visual-composer.php:1194
+msgid "Marker"
+msgstr ""
+
+#: inc/shortcodes.php:961 inc/visual-composer.php:782
+#: inc/visual-composer.php:791
+msgid "Member"
+msgstr ""
+
+#: inc/visual-composer.php:2405
+msgid "Min Height(px)"
+msgstr ""
+
+#: inc/visual-composer.php:79 inc/visual-composer.php:107
+#: inc/visual-composer.php:810 inc/visual-composer.php:996
+msgid "Name"
+msgstr ""
+
+#: inc/widgets/portfolio.php:173
+msgid "name"
+msgstr ""
+
+#: inc/portfolio.php:127 inc/services.php:133
+msgid "New Category Name"
+msgstr ""
+
+#: inc/portfolio.php:80
+msgid "New Project"
+msgstr ""
+
+#: inc/services.php:83
+msgid "New Service"
+msgstr ""
+
+#: inc/visual-composer.php:2755
+msgid "No background"
+msgstr ""
+
+#: inc/visual-composer.php:2024
+msgid "No box shadow"
+msgstr ""
+
+#: inc/visual-composer.php:1693
+msgid "No icon"
+msgstr ""
+
+#: inc/shortcodes.php:1429
+msgid "No location found for the entered address."
+msgstr ""
+
+#: inc/widgets/custom-menu.php:178
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: inc/portfolio.php:83
+msgid "No Projects found"
+msgstr ""
+
+#: inc/portfolio.php:84
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: inc/services.php:86
+msgid "No Services found"
+msgstr ""
+
+#: inc/services.php:87
+msgid "No Services found in Trash"
+msgstr ""
+
+#: inc/visual-composer.php:524 inc/visual-composer.php:1441
+#: inc/visual-composer.php:1544 inc/visual-composer.php:2498
+msgid "nomal"
+msgstr ""
+
+#: inc/visual-composer.php:3071
+msgid "None"
+msgstr ""
+
+#: inc/visual-composer.php:2676
+msgid "Number"
+msgstr ""
+
+#: inc/visual-composer.php:2683
+msgid "Number color"
+msgstr ""
+
+#: inc/visual-composer.php:2357
+msgid "Number Counter"
+msgstr ""
+
+#: inc/widgets/portfolio.php:134 inc/widgets/recent-posts.php:194
+msgid "Number Of Posts"
+msgstr ""
+
+#: inc/visual-composer.php:700
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/visual-composer.php:3177
+msgid "Number of Services"
+msgstr ""
+
+#: inc/shortcodes.php:1448 inc/visual-composer.php:1250
+msgid "Office Box"
+msgstr ""
+
+#: inc/visual-composer.php:2399
+msgid "Only support YouTube and Vimeo"
+msgstr ""
+
+#: inc/visual-composer.php:1847 inc/visual-composer.php:3207
+#: inc/widgets/portfolio.php:153
+msgid "Order"
+msgstr ""
+
+#: inc/visual-composer.php:3195 inc/widgets/portfolio.php:143
+msgid "Order By"
+msgstr ""
+
+#: inc/visual-composer.php:1828
+msgid "Order by"
+msgstr ""
+
+#: inc/visual-composer.php:951
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: inc/visual-composer.php:958
+msgid "Padding Left (px)"
+msgstr ""
+
+#: inc/visual-composer.php:944
+msgid "Padding Right (px)"
+msgstr ""
+
+#: inc/visual-composer.php:937
+msgid "Padding Top (px)"
+msgstr ""
+
+#: inc/portfolio.php:128 inc/services.php:134
+msgid "Parent Category"
+msgstr ""
+
+#: inc/portfolio.php:129 inc/services.php:135
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/widgets/office-location.php:171
+msgid "Phone"
+msgstr ""
+
+#: inc/visual-composer.php:1082 inc/visual-composer.php:2079
+#: inc/visual-composer.php:2211 inc/visual-composer.php:2602
+#: inc/visual-composer.php:3138 inc/visual-composer.php:3301
+msgid "Pick an icon from library."
+msgstr ""
+
+#: inc/shortcodes.php:2317 inc/widgets/socials.php:31
+msgid "Pinterest"
+msgstr ""
+
+#: inc/visual-composer.php:1162
+#, php-format
+msgid "Please go to <a href=\"%s\">Google Maps APIs</a> to get a key"
+msgstr ""
+
+#: inc/portfolio.php:73 inc/portfolio.php:75 inc/portfolio.php:202
+#: inc/portfolio.php:209 inc/portfolio.php:225
+msgid "Portfolio"
+msgstr ""
+
+#: inc/visual-composer.php:2276
+msgid "Portfolio Attribute"
+msgstr ""
+
+#: inc/portfolio.php:345
+msgid "Portfolio base"
+msgstr ""
+
+#: inc/portfolio.php:357
+msgid "Portfolio base with category"
+msgstr ""
+
+#: inc/visual-composer.php:1949
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: inc/portfolio.php:119
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/portfolio.php:268
+msgid "Portfolio category base"
+msgstr ""
+
+#: inc/portfolio.php:458
+msgctxt "Portfolio category base"
+msgid "portfolio-category"
+msgstr ""
+
+#: inc/visual-composer.php:1794
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/portfolio.php:261
+msgid "Portfolio Item Permalink"
+msgstr ""
+
+#: inc/portfolio.php:71
+msgid "Portfolio Items"
+msgstr ""
+
+#: inc/portfolio.php:443
+msgctxt "Portfolio items per page"
+msgid "items"
+msgstr ""
+
+#: inc/portfolio.php:246 inc/visual-composer.php:1928
+#: inc/visual-composer.php:1973
+msgid "Portfolio items show at most"
+msgstr ""
+
+#: inc/visual-composer.php:1134
+msgid "Portfolio Meta"
+msgstr ""
+
+#: inc/portfolio.php:232
+msgid "Portfolio page"
+msgstr ""
+
+#: inc/visual-composer.php:2702
+msgid "Progress bacground bar color"
+msgstr ""
+
+#: inc/visual-composer.php:2669
+msgid "Progress bar"
+msgstr ""
+
+#: inc/visual-composer.php:2690
+msgid "Progress bar color"
+msgstr ""
+
+#: inc/visual-composer.php:2696
+msgid "Progress bar stripes color"
+msgstr ""
+
+#: inc/portfolio.php:74 inc/portfolio.php:156
+msgid "Project"
+msgstr ""
+
+#: inc/portfolio.php:86
+msgid "Project list navigation"
+msgstr ""
+
+#: inc/portfolio.php:87
+msgid "Projects list"
+msgstr ""
+
+#: inc/visual-composer.php:264
+msgid "Quick Search"
+msgstr ""
+
+#: inc/visual-composer.php:1835 inc/visual-composer.php:3201
+msgid "Random"
+msgstr ""
+
+#: inc/shortcodes.php:1970 inc/visual-composer.php:2294
+msgid "Rating"
+msgstr ""
+
+#: inc/shortcodes.php:3029
+msgid "Rating :"
+msgstr ""
+
+#: inc/shortcodes.php:3132
+msgid "Read More"
+msgstr ""
+
+#: inc/shortcodes.php:556 inc/shortcodes.php:813 inc/shortcodes.php:1808
+msgid "Read more"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:68
+msgid "Read More Post"
+msgstr ""
+
+#: inc/visual-composer.php:605 inc/visual-composer.php:1660
+#: inc/visual-composer.php:2346 inc/visual-composer.php:3056
+#: inc/visual-composer.php:3121
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/socials.php:37
+msgid "RSS"
+msgstr ""
+
+#: inc/shortcodes.php:2323
+msgid "Rss"
+msgstr ""
+
+#: inc/services.php:136
+msgid "Search Categories"
+msgstr ""
+
+#: inc/portfolio.php:130
+msgid "Search Category"
+msgstr ""
+
+#: inc/portfolio.php:82
+msgid "Search Projects"
+msgstr ""
+
+#: inc/services.php:85
+msgid "Search Services"
+msgstr ""
+
+#: inc/shortcodes.php:852 inc/visual-composer.php:695
+msgid "Section Blog"
+msgstr ""
+
+#: inc/visual-composer.php:457 inc/visual-composer.php:693
+#: inc/visual-composer.php:789 inc/visual-composer.php:908
+#: inc/visual-composer.php:983 inc/visual-composer.php:1257
+#: inc/visual-composer.php:1306 inc/visual-composer.php:1368
+#: inc/visual-composer.php:1417
+msgid "Section title"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:198
+msgid "Select Category: "
+msgstr ""
+
+#: inc/visual-composer.php:894
+msgid "Select Form"
+msgstr ""
+
+#: inc/visual-composer.php:847
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visual-composer.php:837 inc/visual-composer.php:1069
+#: inc/visual-composer.php:2066 inc/visual-composer.php:2198
+#: inc/visual-composer.php:2585 inc/visual-composer.php:3126
+#: inc/visual-composer.php:3289
+msgid "Select icon library."
+msgstr ""
+
+#: inc/widgets/custom-menu.php:191
+msgid "Select Menu 1:"
+msgstr ""
+
+#: inc/widgets/custom-menu.php:203
+msgid "Select Menu 2:"
+msgstr ""
+
+#: inc/visual-composer.php:1596
+msgid "Select style image box."
+msgstr ""
+
+#: inc/visual-composer.php:1808
+msgid "Select style Portfolio Grid."
+msgstr ""
+
+#: inc/visual-composer.php:476 inc/visual-composer.php:2457
+msgid "Select style title you want show."
+msgstr ""
+
+#: inc/visual-composer.php:3203
+msgid ""
+"Select to order Services. Leave empty to use the default order by of theme."
+msgstr ""
+
+#: inc/visual-composer.php:3214
+msgid "Select to sort Services. Leave empty to use the default sort of theme"
+msgstr ""
+
+#: inc/visual-composer.php:1073 inc/visual-composer.php:2070
+#: inc/visual-composer.php:2205 inc/visual-composer.php:3293
+msgid "Select type"
+msgstr ""
+
+#: inc/services.php:77 inc/services.php:167
+msgid "Service"
+msgstr ""
+
+#: inc/services.php:125
+msgid "Service Categories"
+msgstr ""
+
+#: inc/services.php:138
+msgid "Service Category list"
+msgstr ""
+
+#: inc/services.php:137
+msgid "Service Category list navigation"
+msgstr ""
+
+#: inc/services.php:89
+msgid "Service list navigation"
+msgstr ""
+
+#: inc/services.php:76 inc/services.php:78 inc/services.php:213
+#: inc/services.php:220 inc/services.php:236 inc/visual-composer.php:3170
+msgid "Services"
+msgstr ""
+
+#: inc/services.php:356
+msgid "Services base"
+msgstr ""
+
+#: inc/services.php:368
+msgid "Services base with category"
+msgstr ""
+
+#: inc/services.php:279
+msgid "Services category base"
+msgstr ""
+
+#: inc/services.php:272
+msgid "Services Item Permalink"
+msgstr ""
+
+#: inc/services.php:74
+msgid "Services Items"
+msgstr ""
+
+#: inc/services.php:456
+msgctxt "Services items per page"
+msgid "items"
+msgstr ""
+
+#: inc/services.php:257
+msgid "Services items show at most"
+msgstr ""
+
+#: inc/services.php:90
+msgid "Services list"
+msgstr ""
+
+#: inc/services.php:243
+msgid "Services page"
+msgstr ""
+
+#: inc/visual-composer.php:740 inc/visual-composer.php:2824
+#: inc/visual-composer.php:2941 inc/visual-composer.php:3257
+msgid "Set auto play speed (in ms)."
+msgstr ""
+
+#: inc/visual-composer.php:3191
+msgid "Set columns of Services you want to display."
+msgstr ""
+
+#: inc/visual-composer.php:703
+msgid "Set numbers of Posts you want to display. Set -1 to display all posts"
+msgstr ""
+
+#: inc/visual-composer.php:3180
+msgid ""
+"Set numbers of Services you want to display. Set -1 to display all services"
+msgstr ""
+
+#: inc/visual-composer.php:2027 inc/visual-composer.php:2054
+#: inc/visual-composer.php:2166 inc/visual-composer.php:2174
+#: inc/visual-composer.php:3333
+msgid "Setting"
+msgstr ""
+
+#: inc/shortcodes.php:2325
+msgid "Share"
+msgstr ""
+
+#: inc/visual-composer.php:1866
+msgid "Show"
+msgstr ""
+
+#: inc/visual-composer.php:641
+msgid "Show Border"
+msgstr ""
+
+#: inc/visual-composer.php:2152
+msgid "Show border bottom"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:253
+msgid "Show button"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:240
+msgid "Show Categogy"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:247
+msgid "Show Date"
+msgstr ""
+
+#: inc/visual-composer.php:759 inc/visual-composer.php:2804
+#: inc/visual-composer.php:2921 inc/visual-composer.php:3237
+msgid "Show Dots"
+msgstr ""
+
+#: inc/widgets/custom-menu.php:218
+msgid "Show Icon"
+msgstr ""
+
+#: inc/visual-composer.php:402 inc/visual-composer.php:2871
+#: inc/visual-composer.php:2980
+msgid "Show icon arrow"
+msgstr ""
+
+#: inc/visual-composer.php:2798 inc/visual-composer.php:2915
+msgid "Show Nav"
+msgstr ""
+
+#: inc/visual-composer.php:748
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/visual-composer.php:2145
+msgid "Show read more"
+msgstr ""
+
+#: inc/widgets/portfolio.php:140 inc/widgets/recent-posts.php:221
+msgid "Show Thumbnail"
+msgstr ""
+
+#: inc/shortcodes.php:2326 inc/widgets/socials.php:29
+msgid "Skype"
+msgstr ""
+
+#: inc/portfolio.php:66 inc/portfolio.php:502 inc/portfolio.php:597
+#: inc/portfolio.php:631
+msgctxt "slug"
+msgid "portfolio"
+msgstr ""
+
+#: inc/portfolio.php:68
+msgctxt "slug"
+msgid "portfolio-category"
+msgstr ""
+
+#: inc/services.php:68 inc/services.php:515 inc/services.php:608
+#: inc/services.php:656
+msgctxt "slug"
+msgid "service"
+msgstr ""
+
+#: inc/services.php:70
+msgctxt "slug"
+msgid "service-category"
+msgstr ""
+
+#: inc/portfolio.php:696 inc/services.php:721
+msgctxt "slug"
+msgid "uncategorized"
+msgstr ""
+
+#: inc/visual-composer.php:831
+msgid "Socials"
+msgstr ""
+
+#: inc/shortcodes.php:1433
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+
+#: inc/shortcodes.php:2319
+msgid "Spotify"
+msgstr ""
+
+#. Author of the plugin
+msgid "SteelThemes"
+msgstr ""
+
+#: inc/widgets/socials.php:35
+msgid "StumbleUpon"
+msgstr ""
+
+#: inc/visual-composer.php:409 inc/visual-composer.php:416
+#: inc/visual-composer.php:426 inc/visual-composer.php:433
+#: inc/visual-composer.php:440 inc/visual-composer.php:684
+#: inc/visual-composer.php:1219 inc/visual-composer.php:1586
+#: inc/visual-composer.php:1802 inc/visual-composer.php:2007
+#: inc/visual-composer.php:2321 inc/visual-composer.php:2451
+#: inc/visual-composer.php:2757 inc/visual-composer.php:2767
+#: inc/visual-composer.php:2774
+msgid "Style"
+msgstr ""
+
+#: inc/visual-composer.php:413 inc/visual-composer.php:467
+#: inc/visual-composer.php:1222 inc/visual-composer.php:1589
+#: inc/visual-composer.php:1805 inc/visual-composer.php:2010
+#: inc/visual-composer.php:2324 inc/visual-composer.php:2454
+#: inc/visual-composer.php:2555 inc/widgets/recent-posts.php:177
+msgid "Style 1"
+msgstr ""
+
+#: inc/visual-composer.php:414 inc/visual-composer.php:468
+#: inc/visual-composer.php:1223 inc/visual-composer.php:1590
+#: inc/visual-composer.php:1806 inc/visual-composer.php:2011
+#: inc/visual-composer.php:2325 inc/visual-composer.php:2455
+#: inc/visual-composer.php:2556 inc/widgets/recent-posts.php:179
+msgid "Style 2"
+msgstr ""
+
+#: inc/visual-composer.php:469 inc/visual-composer.php:1591
+#: inc/visual-composer.php:2012
+msgid "Style 3"
+msgstr ""
+
+#: inc/visual-composer.php:470 inc/visual-composer.php:1592
+#: inc/visual-composer.php:2013
+msgid "Style 4"
+msgstr ""
+
+#: inc/visual-composer.php:471 inc/visual-composer.php:1593
+#: inc/visual-composer.php:2014
+msgid "Style 5"
+msgstr ""
+
+#: inc/visual-composer.php:472 inc/visual-composer.php:2015
+msgid "Style 6"
+msgstr ""
+
+#: inc/visual-composer.php:473 inc/visual-composer.php:2016
+msgid "Style 7"
+msgstr ""
+
+#: inc/visual-composer.php:474
+msgid "Style 8"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:173
+msgid "Style box"
+msgstr ""
+
+#: inc/visual-composer.php:2551
+msgid "Style button"
+msgstr ""
+
+#: inc/visual-composer.php:464
+msgid "Style title"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:177
+msgid "style1"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:179
+msgid "style2"
+msgstr ""
+
+#: inc/widgets/newsletter.php:50
+msgid "Style:"
+msgstr ""
+
+#: inc/visual-composer.php:618
+msgid "Sub Title"
+msgstr ""
+
+#: inc/visual-composer.php:1457 inc/visual-composer.php:2733
+#: inc/visual-composer.php:2883 inc/visual-composer.php:3002
+msgid "Sub title"
+msgstr ""
+
+#: inc/visual-composer.php:283
+msgid "Svg Icon"
+msgstr ""
+
+#: inc/visual-composer.php:1075 inc/visual-composer.php:2072
+#: inc/visual-composer.php:2203 inc/visual-composer.php:2590
+#: inc/visual-composer.php:2618 inc/visual-composer.php:3131
+#: inc/visual-composer.php:3154 inc/visual-composer.php:3295
+msgid "Svg icon"
+msgstr ""
+
+#: inc/visual-composer.php:292 inc/visual-composer.php:1098
+#: inc/visual-composer.php:1715 inc/visual-composer.php:2095
+#: inc/visual-composer.php:2227 inc/visual-composer.php:3317
+msgid "Svg name"
+msgstr ""
+
+#: inc/visual-composer.php:1055
+msgid "Tab"
+msgstr ""
+
+#: inc/visual-composer.php:2850 inc/visual-composer.php:2970
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: inc/visual-composer.php:2720
+msgid "Testimonials"
+msgstr ""
+
+#: inc/visual-composer.php:2791
+msgid "Testimonials Carousel"
+msgstr ""
+
+#: inc/visual-composer.php:2908
+msgid "Testimonials Carousel 2"
+msgstr ""
+
+#: inc/visual-composer.php:2375
+msgid "Text after counter"
+msgstr ""
+
+#: inc/visual-composer.php:600 inc/visual-composer.php:2340
+msgid "Text Align"
+msgstr ""
+
+#: inc/visual-composer.php:419 inc/visual-composer.php:2760
+#: inc/visual-composer.php:2840 inc/visual-composer.php:2986
+msgid "Text color"
+msgstr ""
+
+#: inc/visual-composer.php:520 inc/visual-composer.php:1436
+#: inc/visual-composer.php:1539 inc/visual-composer.php:2493
+msgid "Text Decoration"
+msgstr ""
+
+#: inc/widgets/recent-posts.php:225
+msgid "Thumbnail Size"
+msgstr ""
+
+#: inc/widgets/office-location.php:177
+msgid "Time"
+msgstr ""
+
+#: inc/visual-composer.php:976
+msgid "Timeline"
+msgstr ""
+
+#: inc/visual-composer.php:135 inc/visual-composer.php:173
+#: inc/visual-composer.php:360 inc/visual-composer.php:482
+#: inc/visual-composer.php:610 inc/visual-composer.php:1017
+#: inc/visual-composer.php:1061 inc/visual-composer.php:1270
+#: inc/visual-composer.php:1326 inc/visual-composer.php:1381
+#: inc/visual-composer.php:1482 inc/visual-composer.php:1505
+#: inc/visual-composer.php:1601 inc/visual-composer.php:1833
+#: inc/visual-composer.php:2031 inc/visual-composer.php:2190
+#: inc/visual-composer.php:2463 inc/visual-composer.php:2708
+#: inc/visual-composer.php:2727 inc/visual-composer.php:2877
+#: inc/visual-composer.php:2949 inc/visual-composer.php:2996
+#: inc/visual-composer.php:3200 inc/visual-composer.php:3270
+#: inc/widgets/newsletter.php:37 inc/widgets/office-location.php:159
+#: inc/widgets/portfolio.php:125 inc/widgets/recent-posts.php:183
+#: inc/widgets/socials.php:110
+msgid "Title"
+msgstr ""
+
+#: inc/visual-composer.php:540 inc/visual-composer.php:1625
+#: inc/visual-composer.php:2051 inc/visual-composer.php:2518
+msgid "Title Color"
+msgstr ""
+
+#: inc/visual-composer.php:366
+msgid "Title color"
+msgstr ""
+
+#: inc/widgets/custom-menu.php:184
+msgid "Title:"
+msgstr ""
+
+#: inc/shortcodes.php:2321
+msgid "Tumbleupon"
+msgstr ""
+
+#: inc/shortcodes.php:2312 inc/widgets/socials.php:28
+msgid "Tumblr"
+msgstr ""
+
+#: inc/shortcodes.php:2310 inc/widgets/socials.php:25
+msgid "Twitter"
+msgstr ""
+
+#: inc/visual-composer.php:707
+msgid "Type"
+msgstr ""
+
+#: inc/shortcodes.php:1436
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: inc/visual-composer.php:625
+msgid "Underline"
+msgstr ""
+
+#: inc/visual-composer.php:523 inc/visual-composer.php:1440
+#: inc/visual-composer.php:1543 inc/visual-composer.php:2497
+msgid "underline"
+msgstr ""
+
+#: inc/visual-composer.php:530 inc/visual-composer.php:634
+#: inc/visual-composer.php:1447 inc/visual-composer.php:1549
+#: inc/visual-composer.php:2508 inc/visual-composer.php:2954
+msgid "Underline Text"
+msgstr ""
+
+#: inc/visual-composer.php:2368
+msgid "Units"
+msgstr ""
+
+#: inc/portfolio.php:125 inc/services.php:131
+msgid "Update Category"
+msgstr ""
+
+#: inc/visual-composer.php:862 inc/visual-composer.php:2106
+#: inc/visual-composer.php:2630
+msgid "Upload icon image"
+msgstr ""
+
+#: inc/visual-composer.php:1639 inc/visual-composer.php:2568
+msgid "Upload image"
+msgstr ""
+
+#: inc/visual-composer.php:797
+msgid "Upload member image"
+msgstr ""
+
+#: inc/widgets/socials.php:131
+msgid "URL"
+msgstr ""
+
+#: inc/visual-composer.php:395 inc/visual-composer.php:1114
+#: inc/visual-composer.php:2744 inc/visual-composer.php:2865
+#: inc/visual-composer.php:2975 inc/visual-composer.php:3032
+#: inc/visual-composer.php:3098
+msgid "URL (Link)"
+msgstr ""
+
+#: inc/visual-composer.php:546 inc/visual-composer.php:2545
+msgid "URL (Link) Button"
+msgstr ""
+
+#: inc/portfolio.php:299 inc/services.php:310
+msgid "Use these settings to control custom post type content"
+msgstr ""
+
+#: inc/portfolio.php:323
+msgid ""
+"Use these settings to control the permalink used specifically for portfolio."
+msgstr ""
+
+#: inc/services.php:334
+msgid ""
+"Use these settings to control the permalink used specifically for service."
+msgstr ""
+
+#: inc/portfolio.php:288 inc/services.php:299
+msgid "Use these settings to disable custom types of content on your site"
+msgstr ""
+
+#: inc/visual-composer.php:2238 inc/visual-composer.php:2411
+msgid "Video Background Image"
+msgstr ""
+
+#: inc/visual-composer.php:2398
+msgid "Video file URL"
+msgstr ""
+
+#: inc/shortcodes.php:747
+msgid "View all"
+msgstr ""
+
+#: inc/portfolio.php:124 inc/services.php:130
+msgid "View Category"
+msgstr ""
+
+#: inc/shortcodes.php:855 inc/shortcodes.php:964 inc/visual-composer.php:718
+msgid "View More"
+msgstr ""
+
+#: inc/portfolio.php:81
+msgid "View Project"
+msgstr ""
+
+#: inc/services.php:84
+msgid "View Service"
+msgstr ""
+
+#: inc/shortcodes.php:2314
+msgid "Vimeo"
+msgstr ""
+
+#: inc/shortcodes.php:2117
+msgid "Watch Project Video"
+msgstr ""
+
+#: inc/shortcodes.php:2988
+msgid "Website :"
+msgstr ""
+
+#: inc/visual-composer.php:1201
+msgid "Width(px)"
+msgstr ""
+
+#: inc/shortcodes.php:2322
+msgid "WordPress"
+msgstr ""
+
+#: inc/visual-composer.php:990
+msgid "Year"
+msgstr ""
+
+#: inc/shortcodes.php:2329
+msgid "Yelp"
+msgstr ""
+
+#: inc/visual-composer.php:404 inc/visual-composer.php:627
+#: inc/visual-composer.php:643 inc/visual-composer.php:728
+#: inc/visual-composer.php:750 inc/visual-composer.php:761
+#: inc/visual-composer.php:1778 inc/visual-composer.php:2026
+#: inc/visual-composer.php:2041 inc/visual-composer.php:2800
+#: inc/visual-composer.php:2806 inc/visual-composer.php:2812
+#: inc/visual-composer.php:2816 inc/visual-composer.php:2873
+#: inc/visual-composer.php:2917 inc/visual-composer.php:2923
+#: inc/visual-composer.php:2929 inc/visual-composer.php:2933
+#: inc/visual-composer.php:2983 inc/visual-composer.php:3072
+#: inc/visual-composer.php:3239 inc/visual-composer.php:3245
+#: inc/visual-composer.php:3249
+msgid "Yes"
+msgstr ""
+
+#: inc/shortcodes.php:2315 inc/widgets/socials.php:27
+msgid "Youtube"
+msgstr ""
+
+#: inc/visual-composer.php:1213
+msgid "Zoom"
+msgstr ""

@@ -1,0 +1,294 @@
+.topbar {
+	background-color: #111c55;
+	color: #abaebe;
+
+	.row-flex {
+		align-items: stretch;
+		min-height: 55px;
+	}
+
+	.topbar-widgets {
+		flex-grow: 1;
+		align-items: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.topbar-left {
+		.delaware-office-location-widget {
+			.office-switcher {
+				float: left;
+				margin-right: 20px;
+				margin-left: 0;
+			}
+		}
+	}
+
+	.topbar-right {
+		justify-content: flex-end;
+	}
+
+	.widget {
+		margin: 10px 0;
+		padding: 0 15px;
+
+		.widget-title {
+			color: #abaebe;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+	}
+
+	.topbar-widgets {
+		.widget {
+			margin-bottom: 10px;
+
+			&.widget_nav_menu{
+				margin-bottom: 0;
+			}
+		}
+
+	}
+
+	.widget_search {
+		.search-form {
+			position: relative;
+			border: 1px solid #142476;
+			max-width: 200px;
+
+			&:before {
+				color: #9b9ea8;
+				font-size: 16px;
+				right: 15px;
+			}
+
+			&:after {
+				display: none;
+			}
+
+			.search-field {
+				height: 37px;
+				line-height: 37px;
+				padding-left: 15px;
+				padding-right: 45px;
+			}
+
+			.search-submit {
+				width: 37px;
+				height: 37px;
+			}
+		}
+	}
+
+	.delaware-social-links-widget {
+		a {
+			color: #abaebe;
+			padding: 0 10px;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+
+			&:hover {
+				color: @primary-color;
+			}
+		}
+	}
+
+	.widget_recent_comments ul li a, .widget_recent_entries ul li a, .widget_rss ul li a {
+		color: #abaebe;
+	}
+
+	.widget_categories,
+	.widget_archive,
+	.widget_pages,
+	.widget_meta,
+	.widget_nav_menu,
+	.widget_dl-custom-menu {
+		margin: 0;
+
+		ul {
+			li {
+				padding: 15px 18px;
+				border-right: 1px solid #142476;
+				display: inline-block;
+
+				a {
+					color: #abaebe;
+				}
+
+				&:first-child {
+					padding-left: 0;
+				}
+			}
+		}
+
+		li:before {
+			display: none;
+		}
+	}
+}
+
+.topbar.topbar-mobile {
+	.topbar-widgets {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.header-v3 {
+	.topbar {
+		background-color: #f7faff;
+
+		.widget_search {
+			.search-form {
+				border-color: #e2eaf6;
+			}
+		}
+
+		.widget_categories,
+		.widget_archive,
+		.widget_pages,
+		.widget_meta,
+		.widget_nav_menu,
+		.widget_dl-custom-menu {
+			ul {
+				li {
+					border-right: 0;
+
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.delaware-office-location-widget {
+	.svg-icon {
+		padding-right: 10px;
+		color: @primary-color;
+		font-size: 20px;
+	}
+
+	.office-location {
+		display: flex;
+		align-items: center;
+	}
+
+	.current-office {
+		color: #abaebe;
+		padding-right: 15px;
+		padding-left: 5px;
+		position: relative;
+
+		&:after {
+			content: '\f078';
+			font-family: FontAweSome;
+			position: absolute;
+			top: 45%;
+			right: 0;
+			transform: translateY(-50%);
+			font-size: 10px;
+			z-index: 99;
+		}
+	}
+
+	.office-switcher {
+		position: relative;
+		float: right;
+		margin-left: 20px;
+
+		& > i {
+			display: none;
+		}
+
+		& > a {
+			display: inline-block;
+		}
+
+		i {
+			text-align: right;
+			font-size: 10px;
+		}
+
+		ul {
+			transform: scaleX(0);
+			transition: top 0.3s ease 0s, opacity 0.3s;
+			position: absolute;
+			color: #222;
+			min-width: 100%;
+			left: 0;
+			top: calc(~'100% + 18px');
+			text-align: left;
+			z-index: 9999;
+			background-color: #fff;
+			box-shadow: 1px 2px 21px 0 rgba(1, 1, 1, 0.15);
+			font-size: 14px;
+
+			li {
+				border-bottom: 1px solid #e9f0fc;
+				transition: 0.5s;
+				padding: 9px 10px 7px;
+				cursor: pointer;
+				line-height: 1;
+
+				&:last-child {
+					border-bottom: 0;
+				}
+
+				&:hover {
+					background-color: #f7faff;
+				}
+			}
+		}
+
+		&.show-office {
+			ul {
+				transform: scaleX(1);
+				top: calc(~'100% + 5px');
+			}
+		}
+	}
+
+	.topbar-office {
+		display: none;
+		margin-left: -8px;
+		margin-right: -8px;
+
+		a {
+			color: #abaebe;
+		}
+
+		&.active {
+			display: inline-block;
+		}
+
+		li {
+			display: inline-block;
+			padding: 0 8px;
+			position: relative;
+			line-height: 1;
+
+			i {
+				color: @primary-color;
+				padding-right: 10px;
+				font-size: 18px;
+
+				&:before {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,181 @@
+// Button
+.dl-btn-primary() {
+	font-size: 15px;
+	font-family: @font-family-secondary;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50px;
+	padding: 0 45px;
+	text-align: center;
+	background-color: @primary-color;
+	border: 0;
+	outline: none;
+	min-width: 170px;
+	display: inline-block;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: #fff;
+		background-color: @primary-color;
+		border: 0;
+		outline: none;
+	}
+}
+
+.dl-btn-secondary() {
+	.dl-btn-primary();
+	color: #222;
+	background-color: #f7faff;
+	border: 2px solid #e1e8f4;
+	line-height: 48px;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: #222;
+		background-color: #f7faff;
+		border: 2px solid #e1e8f4;
+	}
+}
+
+.dl-btn-primary {
+	.dl-btn-primary();
+}
+
+.dl-btn-secondary {
+	.dl-btn-secondary();
+}
+
+
+// Loading icon
+
+.loading-icon {
+	display: none;
+	vertical-align: middle;
+	text-align: center;
+	opacity: 0;
+	transition: 0.5s;
+	min-height: 27px;
+
+	.bubble {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin: 0 5px;
+		transform: scaleY(-50%);
+
+		&:nth-child(2n) .dot {
+			animation-delay: -0.3s;
+		}
+
+		&:nth-child(3n) .dot {
+			animation-delay: 0s;
+		}
+	}
+
+	.dot {
+		display: block;
+		border-radius: 50%;
+		background-color: #111c55;
+		width: 100%;
+		height: 100%;
+		transform-origin: 50% 50%;
+		animation: bubble 1.2s -0.6s infinite ease-out;
+		-webkit-animation: bubble 1.2s -0.6s infinite ease-out;
+	}
+}
+
+@keyframes bubble {
+	0%, 100% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes bubble {
+	0%, 100% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+
+// Border Animation
+.border-animation() {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	&::before,
+	&::after {
+		box-sizing: inherit;
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	transition: color .3s;
+
+	&::before,
+	&::after {
+		box-sizing: inherit;
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+	&::before,
+	&::after {
+		// Set border to invisible, so we don't see a 4px border on a 0x0 element before the transition starts
+		border: 3px solid transparent;
+		width: 0;
+		height: 0;
+	}
+
+	// This covers the top & right borders (expands right, then down)
+	&::before {
+		top: 0;
+		left: 0;
+	}
+
+	// And this the bottom & left borders (expands left, then up)
+	&::after {
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.border-animation-hover {
+	color: #f8e510;
+
+	// Hover styles
+	&::before,
+	&::after {
+		width: 100%;
+		height: 100%;
+	}
+	&::before {
+		border-top-color: #f8e510; // Make borders visible
+		border-right-color: #f8e510;
+		transition:
+		width 0.25s ease-out, // Width expands first
+		height 0.25s ease-out 0.25s; // And then height
+	}
+	&::after {
+		border-bottom-color: #f8e510; // Make borders visible
+		border-left-color: #f8e510;
+		transition:
+		border-color 0s ease-out 0.5s, // Wait for ::before to finish before showing border
+		width 0.25s ease-out 0.5s, // And then exanding width
+		height 0.25s ease-out 0.75s; // And finally height
+	}
+}
